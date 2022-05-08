@@ -1,4 +1,5 @@
 .place__image{
   height: 460px;
   left: 148px;
+  grid-area: place__image;
 }

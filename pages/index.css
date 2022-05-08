@@ -19,6 +19,8 @@
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__span/intro__span.css);
+@import url(../blocks/intro/__span/_bold/intro__span_bold.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 /* Стили для блока Intro */
@@ -36,6 +38,22 @@
 @import url(../blocks/place/__website-url/place__website-url.css);
 @import url(../blocks/place/__website-link/place__website-link.css);
 @import url(../blocks/place/places-list/places-list.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
 /* Стили для блока Places */
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+/* Стили для блока Cover */
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
+/* Стили для блока Footer */
+
 
 

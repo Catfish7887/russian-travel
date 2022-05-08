@@ -3,4 +3,5 @@
   flex-direction: column;
   align-content: space-between;
   min-height: 46px;
+  grid-area: place__website;
 }

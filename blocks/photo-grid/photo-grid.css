@@ -2,10 +2,11 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  grid-auto-flow: row;
   gap: 16px 16px;
 
   width: 92.5%;
-  
+
   margin: 92px auto 0;
 }
 

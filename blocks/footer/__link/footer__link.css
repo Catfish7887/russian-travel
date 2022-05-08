@@ -1,0 +1,19 @@
+.footer__link{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-style: 16px;
+  line-height: 112%;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity 0.5s ease;
+  padding-right: 18px;
+}
+
+.footer__link:hover{
+  opacity: 0.8;
+}
+
+/* .footer__link:last-of-type{
+  padding: 0;
+}
+ */
