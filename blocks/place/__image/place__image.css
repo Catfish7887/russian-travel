@@ -1,5 +1,21 @@
 .place__image{
-  height: 460px;
+  width: 460px;
   left: 148px;
   grid-area: place__image;
+}
+
+
+@media screen and (max-width: 768px) {
+  .place__image{
+    width: 340px;
+    align-self: start;
+    object-fit: cover;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .place__image{
+    width: 100%;
+  }
 }

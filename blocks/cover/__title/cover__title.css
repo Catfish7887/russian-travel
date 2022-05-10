@@ -9,3 +9,15 @@
   text-align: center;
   margin: 0;
 }
+
+
+@media screen and (max-width: 319px) {
+  .cover__title{
+    font-size: 32px;
+    line-height: 109%;
+    max-width: 240px;
+    text-align: center;
+  }
+
+}
+

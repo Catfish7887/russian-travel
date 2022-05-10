@@ -1,14 +1,61 @@
 .cover__overlay{
-  opacity: 0.3;
-  transition: opacity 0.8s ease;
+  width: 100%;
+  min-height: 740px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background-image: url(../../../images/cover__background.png);
+  background-size: cover;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cover__overlay::before{
   width: 100%;
   height: 100%;
-  background-color: #2A2C2F;
+  z-index: -1;
+  background: #2A2C2F;
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 0.3;
+  transition: opacity 0.8s ease;
+  content: '';
 }
 
-.cover__overlay:hover{
+.cover__overlay:hover::before{
   opacity: 0.8;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__overlay{
+    max-width: 100%;
+    /* background-size: contain; */
+    min-height: 640px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay{
+    min-height: 480px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay{
+    min-height: 200px;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    margin-top: 66px;
+
+  }
+
+}
+

@@ -1,11 +1,30 @@
 .cover{
-  max-width: 1184px;
-  min-height: 740px;
-  background-image: url(../../images/cover__background.png);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin: 0 auto 0;
+  max-width: 100%;
+  margin: 92px auto 0;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .cover{
+    max-width: 100%;
+    min-height: 640px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .cover{
+    min-height: 480px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .cover{
+    min-height: 200px;
+
+    margin-top: 66px;
+
+  }
+
 }

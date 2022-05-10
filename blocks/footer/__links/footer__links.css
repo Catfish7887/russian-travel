@@ -6,3 +6,12 @@
   padding: 0;
 }
 
+@media screen and (max-width: 320px) {
+  .footer__links{
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+  }
+
+}
+

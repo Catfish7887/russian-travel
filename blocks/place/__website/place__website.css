@@ -5,3 +5,11 @@
   min-height: 46px;
   grid-area: place__website;
 }
+
+@media screen and (max-width: 320px) {
+  .place__website{
+    margin-left: 16px;
+  }
+
+}
+

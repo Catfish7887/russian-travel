@@ -10,4 +10,9 @@
 
 }
 
+@media screen and (max-width: 768px) {
+  .place__website-url{
+    line-height: 100%;
+  }
 
+}

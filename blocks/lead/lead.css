@@ -3,6 +3,19 @@
   justify-content: center;
   flex-direction: column;
   margin: 56px auto 0 auto;
-  width: 984px;
-  height: 1005px;
+  max-width: 984px;
+  max-height: 1005px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead{
+    margin: 56px auto 0;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  .lead{
+    width: 100%;
+  }
 }

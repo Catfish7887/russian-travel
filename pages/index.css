@@ -7,7 +7,7 @@
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__link-container/header__link-container.css);
-@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link-active.css);
 /* Стили для шапки */
 
 @import url(../blocks/lead/lead.css);
@@ -15,7 +15,7 @@
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__title/lead__title.css);
-/* Стили для блока Lead */
+/* Стили для секции Lead */
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__list/intro__list.css);
@@ -23,7 +23,7 @@
 @import url(../blocks/intro/__span/_bold/intro__span_bold.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
-/* Стили для блока Intro */
+/* Стили для секции Intro */
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
@@ -39,14 +39,14 @@
 @import url(../blocks/place/__website-link/place__website-link.css);
 @import url(../blocks/place/places-list/places-list.css);
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
-/* Стили для блока Places */
+/* Стили для секции Places */
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
-/* Стили для блока Cover */
+/* Стили для секции Cover */
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
