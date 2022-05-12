@@ -17,7 +17,7 @@
 
 **Github-pages**
 
-[Ссылка на Github-pages]()
+* [Ссылка на Github-pages](https://catfish7887.github.io/russian-travel/)
 
 **Технологии, которые я применил в этом проекте**
 
