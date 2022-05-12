@@ -1,11 +1,11 @@
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .photo-grid__item{
     width: 300px;
   }
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .photo-grid__item{
     width: 352px;
   }
@@ -15,8 +15,11 @@
 @media screen and (max-width: 320px) {
   .photo-grid__item{
     width: 288px;
-    
+
   }
+ */
 
+
+.photo-grid__item{
+  width: 100%;
 }
-
