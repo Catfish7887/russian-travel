@@ -1,5 +1,5 @@
 .place__website-url{
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 170%;
@@ -10,7 +10,7 @@
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .place__website-url{
     line-height: 100%;
   }
