@@ -37,7 +37,7 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__website-url/place__website-url.css);
 @import url(../blocks/place/__website-link/place__website-link.css);
-@import url(../blocks/place/__list/place__places-list.css);
+@import url(../blocks/places/__list/places__list.css);
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
 /* Стили для секции Places */
 
