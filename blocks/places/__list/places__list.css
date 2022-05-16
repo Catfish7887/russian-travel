@@ -2,4 +2,24 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  display: grid;
+  grid-template-columns: minmax(min-content, max-content);
+  grid-template-rows: repeat(5, minmax(min-content, max-content));
+  grid-auto-flow: row;
+  row-gap: 80px;
+}
+
+@media  screen and (max-width: 800px) {
+  .places__list{
+    row-gap: 73px;
+  }
+
+}
+
+
+@media  screen and (max-width: 765px) {
+  .places__list{
+    row-gap: 54px;
+  }
+
 }
