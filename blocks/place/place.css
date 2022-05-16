@@ -8,7 +8,7 @@
   "place__image place__paragraphs";
   align-items: end;
   gap: 48px 40px;
-  margin: 0;
+
 
 }
 
@@ -72,5 +72,10 @@
 
   }
 
+@media screen and (max-width: 767px) {
+  .place:nth-of-type(3){
+    margin-top: -7px;
+  }
 
+}
 
