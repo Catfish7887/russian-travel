@@ -12,12 +12,9 @@
 }
 
 
-@media  screen and (max-width: 780px) {
+@media  screen and (max-width: 1023px) {
   .place__paragraph{
     font-size: 16px;
   }
-  .place__paragraph:nth-of-type(2){
-    margin-top: px;
-
-  }
+ 
 }

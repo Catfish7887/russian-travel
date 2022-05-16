@@ -9,7 +9,14 @@
   row-gap: 80px;
 }
 
-@media  screen and (max-width: 800px) {
+@media screen and (max-width: 1279px) {
+  .places__list{
+    row-gap: 85px;
+  }
+
+}
+
+@media  screen and (max-width: 1023px) {
   .places__list{
     row-gap: 73px;
   }
@@ -17,7 +24,7 @@
 }
 
 
-@media  screen and (max-width: 765px) {
+@media  screen and (max-width: 767px) {
   .places__list{
     row-gap: 54px;
   }
